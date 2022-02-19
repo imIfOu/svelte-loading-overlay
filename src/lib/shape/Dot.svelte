@@ -1,5 +1,5 @@
 <script>
-	import { convertObjectToCss } from '$lib/../utils/cssUtils';
+	import { convertObjectToCss } from '../utils/cssUtils';
 
 	export let color = '#ff4f00';
 	export let width = '64px';

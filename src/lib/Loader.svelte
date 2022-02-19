@@ -1,6 +1,6 @@
 <script>
-	import { createWatcher } from './utils/watcher.js';
-	import { convertObjectToCss } from './utils/cssUtils.js';
+	import { createWatcher } from './utils/watcher';
+	import { convertObjectToCss } from './utils/cssUtils';
 	import { fade } from 'svelte/transition';
 	import { onDestroy, createEventDispatcher } from 'svelte';
 	import shapes from './shape';
