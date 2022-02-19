@@ -60,3 +60,41 @@ new Promise((resolve, reject) => {
 	}, 1000);
 }).finally(() => loader.hide());
 ```
+
+## Props
+
+| name | description | type | default |
+|:----:|:-----------:|:----:|:-------:|
+| component | Type of loader component | [see](https://github.com/imIfOu/svelte-loading-overlay#loader-component-values) | `RotateSquare` | 
+| container | Html element that will contain the loader | `HtlmElement` | `undefined` | 
+| active | Activate loader overlay | `Boolean` | `false` | 
+| fullScreen | Loader overlay is display on the full screen | `Boolean` | `false` | 
+| lockScroll | Disable lock scroll on container if active | `Boolean` | `true` | 
+| cancellable | Disable loader overlay by key code | `Boolean` | `false` | 
+| cancelKeyCode | Key code use to trigger the cancellation | `number` | `27` | 
+| zIndex | Loader overlay zIndex | `number` | `9999` | 
+| background | Background color | `color` | `#ffffff` | 
+| opacity | Background opacity | `number` | `0.6` | 
+| delay | Transition delay | `number` | `0` | 
+| duration | Transition duration | `number` | `300` | 
+
+ℹ️ Other props will be passed directly at the loader component
+
+#### Loader Component values
+
+| name |
+|:----:|
+| RotateSquare |
+| RotateSquare2 |
+| CubeShadow |
+| Stretch |
+| Circle |
+| Dot |
+
+## Slots
+
+| name | description |
+|:----:|:-----------:|
+| top | Loader top part | 
+| bottom | Loader bottom part | 
+| default | Loader component slot for custom loader | 
