@@ -2,10 +2,6 @@
 
 Simple svelte component to display custom loading screen.
 
-## Documentation
-
-For more info see the documentation : https://github.com/imIfOu/svelte-loading-overlay/wiki
-
 ## Getting Started
 
 Install dependency : `npm i svelte-loading-overlay`
